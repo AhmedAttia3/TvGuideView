@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/MainRootView"
+    android:orientation="vertical">
+
+    <com.hmaserv.guideview.ui.GuideView
+        android:id="@+id/guideView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rowCount="8"
+        app:columnCount="5"
+        app:rowHeaderLayout="@layout/row_header_layout"
+        app:columnHeaderLayout="@layout/column_header_layout"
+        app:cellLayout="@layout/cell_layout"
+        app:cornerLayout="@layout/corner_layout"
+        app:onBindView=".MainActivity"/>
+
+</LinearLayout>

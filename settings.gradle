@@ -1,0 +1,3 @@
+include ':guideView'
+include ':app'
+rootProject.name = "TvGuideView"

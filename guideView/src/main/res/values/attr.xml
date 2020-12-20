@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TvGuideView">
+        <attr name="rowCount" format="integer"/>
+        <attr name="columnCount" format="integer"/>
+        <attr name="rowHeaderLayout" format="reference"/>
+        <attr name="columnHeaderLayout" format="reference"/>
+        <attr name="cellLayout" format="reference"/>
+        <attr name="cornerLayout" format="reference"/>
+        <attr name="onBindView" format="string"/>
+    </declare-styleable>
+</resources>
